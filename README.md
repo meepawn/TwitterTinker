@@ -12,7 +12,7 @@ First of all, you need credentials for Twitter API, such as:
 
 > ACCESS_TOKEN_SECRET
 
-Get yours at: https://dev.twitter.com/
+Get yours at: https://apps.twitter.com/
 
 ## Requirements
 - You need the almighty NodeJS. Recommended version is v.4.4.0 LTS (Windows), get yours at: https://nodejs.org/en/download/
