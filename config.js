@@ -1,4 +1,4 @@
-//TwitterTinker - NodeJS Personal Twitter Client Oldskool CLI Style
+//TwitterTinker - Your NodeJS personal Twitter client oldschool CLI style
 //author  : Taufiq Bahruddin
 //email   : taufiky@gmail.com
 //version : 0.1 prototype Windows
