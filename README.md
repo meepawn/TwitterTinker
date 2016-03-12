@@ -25,17 +25,18 @@ Get yours at: https://apps.twitter.com/
 - Done, to run it look below.
 
 ## Usage
+
 - To configure it, you have to place Twitter API credentials, run this command inside the extracted folder: (or simply change the confs/config.json)
-> node config
+> `node config`
 
 - To tweet, run:
-> 'node tweet'
+> `node tweet`
 
 - To tweet with (REST API: lat, long, display_coordinates), run:
-> 'node tweetWithLocation'
+> `node tweetWithLocation`
 
 - To get data from someone's time line, run: (You will be asked screen_name, count)
-> 'node tweetMine'
+> `node tweetMine`
 
  //for example @TaufiqByon, screen name is TaufiqByon without the "@". Also case sensitive.
 
