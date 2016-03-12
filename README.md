@@ -20,7 +20,7 @@ Get yours at: https://apps.twitter.com/
 - You need the almighty NodeJS. Recommended version is v.4.4.0 LTS (Windows), get yours at: https://nodejs.org/en/download/
 
 ## Installation
-- Download the ZIP file which contains main.js, config.js, etc.
+- Download the ZIP file which contains config.js, tweet.js, etc.
 - Extract where you'd like.
 - Done, to run it look below.
 
