@@ -1,6 +1,7 @@
 {
-  "CONSUMER_KEY": "here",
-  "CONSUMER_SECRET": "here",
-  "ACCESS_TOKEN_KEY": "here",
-  "ACCESS_TOKEN_SECRET": "here"
+  "LAST_LOG": 1,
+  "CONSUMER_KEY": "puthere",
+  "CONSUMER_SECRET": "puthere",
+  "ACCESS_TOKEN_KEY": "puthere",
+  "ACCESS_TOKEN_SECRET": "puthere"
 }

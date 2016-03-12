@@ -5,6 +5,7 @@
 //license : MIT License
 
 //TwitterTinker - Tweeter
+//Variant : 2
 
 //imports
 var nConf = require('nconf');
@@ -17,6 +18,15 @@ var twitterInput = {
       required: true,
       minLength: 1,
       maxLength: 140
+    },
+    LAT: {
+      message: 'Latitude Information'
+    },
+    LONG: {
+      message: 'Longitude Information'
+    },
+    DISPLAY_COORDINATES: {
+      message: 'Display: true or false'
     }
   }
 };
@@ -33,7 +43,7 @@ var twitterClient = new twitterMaster({
 console.log('\n----------------------------\nTwitterTinker - Tweeter\n----------------------------');
 
 cPrompt.get(twitterInput, function (err, result) {
-  twitterClient.post('statuses/update', {status: result.STATUS},  function(error, tweet, response){
+  twitterClient.post('statuses/update', {status: result.STATUS, lat: result.LAT, long: result.LONG, display_coordinates: result.DISPLAY_COORDINATES},  function(error, tweet, response){
     if(error)
     {
       //throw error;
