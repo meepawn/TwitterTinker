@@ -1,6 +1,8 @@
 # TwitterTinker
 Your NodeJS personal Twitter client oldschool CLI style
 
+[Twitter](https://twitter.com/TaufiqByon)
+
 ## Getting started for babies
 First of all, you need credentials for Twitter API, such as:
 
@@ -27,15 +29,15 @@ Get yours at: https://apps.twitter.com/
 > node config
 
 - To tweet, run:
-> node tweet
+> 'node tweet'
 
 - To tweet with (REST API: lat, long, display_coordinates), run:
-> node tweetWithLocation
+> 'node tweetWithLocation'
 
 - To get data from someone's time line, run: (You will be asked screen_name, count)
-> node tweetMine
+> 'node tweetMine'
 
-> //for example @TaufiqByon, screen name is TaufiqByon without the "@". Also case sensitive.
+ //for example @TaufiqByon, screen name is TaufiqByon without the "@". Also case sensitive.
 
 - Other functions are being developed.
 
