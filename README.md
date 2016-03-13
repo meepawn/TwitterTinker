@@ -50,7 +50,6 @@ Get yours at: https://apps.twitter.com/
   - `display_coordinates` - Boolean, show location or not?
   - `trim_user` - Show user's object in a tweet
   - `media_ids` - Media ID, care more about the file uploading
-
 > `node tweetComplete`
 
 - Other functions are being developed.
