@@ -41,6 +41,8 @@ Get yours at: https://apps.twitter.com/
  //for example @TaufiqByon, screen name is TaufiqByon without the "@". Also case sensitive.
 
 - For complete Tweeting, okay before that. As we know in REST API, the POST statuses/update which is also know as "Tweeting". We can definitely inject other values alongside the tweet (status) data, those values are:
+> `node tweetComplete`
+
   - `status` - Required, the tweet data
   - `in_reply_to_status_id` - If the tweet is meant as a reply
   - `possibly_sensitive` - Boolean for defining if the tweet is sensitive to others
@@ -50,7 +52,7 @@ Get yours at: https://apps.twitter.com/
   - `display_coordinates` - Boolean, show location or not?
   - `trim_user` - Show user's object in a tweet
   - `media_ids` - Media ID, care more about the file uploading
-> `node tweetComplete`
+
 
 - Other functions are being developed.
 
