@@ -26,8 +26,7 @@ var twitterInput = {
       message: 'Longitude Information'
     },
     DISPLAY_COORDINATES: {
-      message: 'Display: boolean true/false',
-      type: 'boolean'
+      message: 'Display: true or false'
     }
   }
 };
